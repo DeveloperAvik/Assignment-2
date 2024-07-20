@@ -298,9 +298,8 @@ h1 {
 }
 
 .grid {
-    display: flex;
     display: block;
-    justify-content: space-around;
+    margin-left: -115px;
     /* display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
     /* grid-template-columns: 300px 3fr 2fr;
@@ -310,7 +309,7 @@ h1 {
 
 .upper-grid {
     display: flex;
-    width: 1200px;
+    width: 1360px;
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 300px 3fr 2fr;
     align-items: stretch;
@@ -319,7 +318,7 @@ h1 {
 
 .lower-grid {
     display: flex;
-    width: 1200px;
+    width: 1360px;
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 300px 3fr 2fr;
     align-items: stretch;
@@ -364,3 +363,26 @@ h1 {
     width: 600px;
 }
 
+.special-img-color-1{
+    filter: #06FFD2;
+
+}
+
+
+.color-filter {
+    filter: sepia(0.6) hue-rotate(150deg) saturate(2.7) brightness(1.2);
+}
+
+.color-filter-2 {
+    filter: sepia(1) hue-rotate(320deg) saturate(8) brightness(1);
+
+}
+
+.color-filter-3 {
+    filter: sepia(0.5) hue-rotate(80deg) saturate(3) brightness(1.2);
+}
+
+.color-filter-4 {
+    filter: sepia(0.3) hue-rotate(190deg) saturate(2) brightness(1);
+
+}
