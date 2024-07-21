@@ -379,7 +379,7 @@ h1 {
 }
 
 .color-filter-3 {
-    filter: sepia(0.5) hue-rotate(80deg) saturate(3) brightness(1.2);
+    filter: sepia(0.5) hue-rotate(80deg) saturate(3) brightness(1.1);
 }
 
 .color-filter-4 {
