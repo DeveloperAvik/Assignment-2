@@ -337,7 +337,7 @@ h1 {
     display: block;
 }
 
-.overlay {
+.training-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -350,7 +350,7 @@ h1 {
     opacity: 0;
 }
 
-.grid-item .overlay {
+.grid-item .training-overlay {
     opacity: 1;
 }
 
