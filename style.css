@@ -533,3 +533,81 @@ select {
 .left-bmi-container {
     margin-right: 150px;
 }
+
+
+
+
+/* Meet our section start */
+
+.team-container h1,
+p {
+    text-align: center;
+}
+
+.team-members {
+    width: 1200px;
+    background-color: #444;
+    border-radius: 10px;
+    height :700px;
+    margin-top: 50px;
+    /* align-items: center; */
+    padding-left: 58px;
+    align-items: center;
+}
+
+.team-member {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+    position: relative;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    margin-left: 58px;
+}
+
+.team-member img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #444;
+    /* margin-top: 50px;
+    margin-left:100px; */
+}
+
+.team-member .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.team-member .info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.team-member .info p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.upper-section {
+    display: flex;
+    /* justify-content: space-between; */
+    gap:30px;
+    align-items: center;
+}
+
+.lower-section {
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap:30px;
+}
