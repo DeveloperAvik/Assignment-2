@@ -28,7 +28,7 @@ section {
 /* Navbar related style */
 
 .brand {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .navbar {
@@ -610,4 +610,50 @@ p {
     display: flex;
     /* justify-content: space-between; */
     gap:30px;
+}
+
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.left-section {
+    flex: 1;
+}
+.left-section h1 {
+    font-size: 48px;
+}
+.left-section p {
+    font-size: 18px;
+    width: 500px;
+    /* line-height: 1; */
+}
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.right-section div {
+    flex: 1;
+}
+.right-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.right-section ul {
+    list-style: none;
+    padding: 0;
+}
+.right-section ul li {
+    margin-bottom: 10px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #444;
 }
