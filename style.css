@@ -583,7 +583,7 @@ p {
     left: 0;
     right: 0;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.6);
+    /* background: rgba(0, 0, 0, 0.6); */
     color: #fff;
 }
 
@@ -595,7 +595,8 @@ p {
 .team-member .info p {
     margin: 0;
     font-size: 14px;
-    color: #ccc;
+    color: #e3dede;
+    text-align: left;
 }
 
 .upper-section {
@@ -657,3 +658,10 @@ p {
     padding: 20px;
     border-top: 1px solid #444;
 }
+
+
+
+
+/* Responsive section  */
+
+
