@@ -5,7 +5,45 @@
         display: block;
         font-size: 2rem;
     }
+
     .nav-links {
         display: none;
+    }
+
+    .workout-section {
+        flex-direction: column;
+
+    }
+
+    .content {
+        max-width: 100%;
+        text-align: left;
+        /* position: relative; */
+    }
+
+    .image-container {
+        position: relative;
+        max-width: 100%;
+    }
+
+    .workout-image {
+        height: 400pxpx;
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    .overlay-top-right {
+        top: 77px;
+        height: 97px;
+        width: 134px;
+        left: 200px;
+        background: rgba(118, 104, 104, 0.5);
+    }
+
+    .overlay-bottom-left {
+        bottom: 80px;
+        right: 200px;
+        /* width:300px; */
+        background: rgba(133, 126, 126, 0.7);
     }
 }
