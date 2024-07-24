@@ -1,4 +1,4 @@
-@media (max-width:576px) {
+@media screen and (max-width:576px) {
     .hamberger {
         color: white;
         size: 30px;
@@ -208,4 +208,27 @@
         /* margin-top: 50px;
         margin-left:100px; */
     }
+
+
+
+
+
+    /* footer section */
+
+    .footer-container {
+        flex-direction: column;
+        /* display: table-column; */
+    }
+
+    .right-section {
+        flex-direction: column;
+    }
+
+    .left-section p {
+        font-size: 18px;
+        /* width: 500px; */
+        align-items: left;
+        /* line-height: 1; */
+    }
+
 }
