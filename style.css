@@ -477,13 +477,15 @@ th {
 
 .bmi-calculator h2 {
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .bmi-calculator p {
     margin-bottom: 20px;
     font-size: 14px;
     width: 409px;
-    color: #aaa;
+    color: #b0a9a9;
+    align-items: left;
 }
 
 form {
@@ -505,6 +507,7 @@ select {
     height: 40px;
     border-radius: 5px;
     background-color: #444;
+    max-width: 100%;
     color: #fff;
     /* width: 100%; */
 }
