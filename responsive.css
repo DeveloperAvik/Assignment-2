@@ -21,6 +21,23 @@
         /* position: relative; */
     }
 
+    .container {
+        padding:10px;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .grid {
+        display: block;
+        margin-left: 0;
+    }
+
     .image-container {
         position: relative;
         max-width: 100%;
@@ -91,16 +108,32 @@
     }
 
     .below-left-section h1 {
-        padding-right: 10px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+
+    .below-left-section p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    .below-left-section button {
+        /* font-size: 2rem; */
+        text-align: center;
+        max-width: 100%;
+        /* align-items: center; */
     }
 
 
 
-    .grid {
-        /* gap: 10px; */
+    /* .grid {
+        gap: 10px;
         margin-right: 30px;
         width: 500px;
-    }
+        grid-template-columns: repeat(2,1fr);
+    }  */
 
     .upper-grid,
     .lower-grid {
@@ -196,9 +229,10 @@
         max-width: 100%;
         background-color: #444;
         border-radius: 10px;
+        width:100%;
         height: 800px;
-        margin-top: 30px;
-        align-items: center;
+        /* margin-top: 30px; */
+        /* align-items: center; */
         /* align-items: center; */
         /* padding-left: 58px; */
         /* align-items: center; */
@@ -219,6 +253,9 @@
         border-radius: 10px;
         align-items: center;
         justify-content: space-around;
+        min-height: 200px;
+        padding:10px;
+        box-shadow: 2px 2px 2px 10px white;
     }
 
     .team-member img {
