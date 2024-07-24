@@ -36,7 +36,7 @@
         top: 77px;
         height: 97px;
         width: 134px;
-        left: 200px;
+        left: 160px;
         background: rgba(118, 104, 104, 0.5);
     }
 
@@ -164,6 +164,27 @@
             /* align-items: center; */
     }
 
+    .right-bmi-container h2{
+        text-align: center;
+            /* align-items: center; */
+    }
+
+    .right-bmi-container {
+        display: row;
+        /* margin-right: 50px; */
+        gap: 50px;
+        justify-content: space-between
+            /* align-items: center; */
+    }
+
+    .left-bmi-container {
+        max-width: 100%;
+    }
+
+    .bmi-calculator form button {
+        align-items: center;
+    }
+
 
     .team-container h1,
     p {
@@ -230,5 +251,4 @@
         align-items: left;
         /* line-height: 1; */
     }
-
 }
