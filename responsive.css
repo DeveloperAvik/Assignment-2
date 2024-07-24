@@ -1,4 +1,4 @@
-@media screen and (max-width:576px) {
+@media (max-width:576px) {
     .hamberger {
         color: white;
         size: 30px;
@@ -57,6 +57,7 @@
         font-size: 20px;
         /* width: 600px; */
     }
+
     .habbit-img-container {
         /* justify-content: space-between; */
         flex-direction: column;
@@ -70,6 +71,141 @@
         /* margin-right: 20px; */
         align-items: center;
         justify-content: space-evenly;
-    
+
+    }
+
+    .below-section {
+        /* justify-content: space-around; */
+        flex-direction: column;
+        margin-top: 50px;
+        max-width: 100%;
+        background-color: #3e3c3c;
+        height: 700px;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    .below-btn {
+        width: 450px;
+        height: 50px;
+    }
+
+    .below-left-section h1 {
+        padding-right: 10px;
+    }
+
+
+
+    .grid {
+        /* gap: 10px; */
+        margin-right: 30px;
+        width: 500px;
+    }
+
+    .upper-grid,
+    .lower-grid {
+        grid-template-columns: 1fr;
+        /* align-items: center; */
+        padding-right: 30px;
+        /* width: 100%; */
+    }
+
+    .upper-grid img {
+        /* max-width: fit-content; */
+        width: 300px;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .header p {
+        font-size: 0.9rem;
+    }
+
+    .grid-item img {
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .grid-item .special-img {
+        width: 200px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+
+
+
+
+    /* BMI section */
+
+    .bmi-header {
+        align-items: center;
+    }
+
+    .description {
+        align-items: left;
+        font-size: 1rem;
+    }
+
+    .bmi-container {
+        flex-direction: column;
+    }
+
+    .right-bmi-container {
+        display: row;
+        /* margin-right: 50px; */
+        gap: 50px;
+        justify-content: space-between
+            /* align-items: center; */
+    }
+
+
+    .team-container h1,
+    p {
+        align-items: center;
+    }
+
+    .team-members {
+        /* width: 1200px; */
+        max-width: 100%;
+        background-color: #444;
+        border-radius: 10px;
+        height: 800px;
+        margin-top: 30px;
+        align-items: center;
+        /* align-items: center; */
+        /* padding-left: 58px; */
+        /* align-items: center; */
+    }
+
+    .upper-section {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .lower-section {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .team-member {
+        background-color: #4a4848;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .team-member img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: #444;
+        /* margin-top: 50px;
+        margin-left:100px; */
     }
 }

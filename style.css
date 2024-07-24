@@ -457,7 +457,8 @@ th {
 
 .description {
     text-align: center;
-    /* align-items: center; */
+    align-items: center;
+    font-size: 1rem;
     /* width:700px; */
 }
 
