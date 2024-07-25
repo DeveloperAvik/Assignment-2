@@ -1,4 +1,12 @@
 @media screen and (max-width:576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
     .hamberger {
         color: white;
         size: 30px;
@@ -223,7 +231,7 @@
 
     .bmi-container {
         flex-direction: column;
-        width:100%;
+        width: 100%;
         max-width: 100%;
     }
 
@@ -233,13 +241,13 @@
         gap: 20px;
         justify-content: space-between;
         max-width: 100%;
-            /* align-items: center; */
-        width:100%;
+        /* align-items: center; */
+        width: 100%;
     }
 
     .bmi-btn {
         max-width: 100%;
-        width:300px;
+        width: 300px;
     }
 
     .right-bmi-container h2 {
@@ -323,12 +331,12 @@
     .left-section {
         flex-direction: column;
         flex: 1;
-        text-align: center;
+        text-align: left;
     }
 
     .right-setion {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
     }
 
     .right-section div {
@@ -340,6 +348,10 @@
 }
 
 @media screen and (max-width:425px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .hamberger {
         color: white;
         size: 30px;
@@ -428,7 +440,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 40px;
-        width:100%;
+        width: 100%;
     }
 
     .round-img p {
