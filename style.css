@@ -1,8 +1,11 @@
 /* Public comments */
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
 body {
     background-color: #000000;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif, miama;
 }
 
 .display-flex {
@@ -22,6 +25,11 @@ section {
 
 
 /* header style */
+
+/* .italic {
+    font-family: 'Miama', sans-serif;
+} */
+
 
 
 
@@ -256,7 +264,8 @@ h1 {
     height: 300px;
     border-radius: 5%;
     transform: scale(1);
-
+    object-fit: none;
+    object-position: 66% 30%;
 }
 
 .below-section {
@@ -680,5 +689,3 @@ p {
 
 
 /* Responsive section  */
-
-
